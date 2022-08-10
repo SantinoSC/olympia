@@ -6,11 +6,11 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    
 }
 
 body {
-    background-color: black;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
     font-family: "work sans", helvetica, sans-serif;
 }
 
@@ -19,7 +19,6 @@ body {
 header {
     width: 100%;
     height: 10vh;
-    padding: 20px;
     padding-top: 10px;
     background-color: transparent;
     position: fixed;
@@ -42,7 +41,7 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
-    margin: 20px 20px 0 20px;
+    margin: 20px 40px 0 20px;
 }
 
 .logo {
@@ -96,14 +95,13 @@ header nav ul li {
     font-size: 70.4px;
     line-height: 84.48px;
     text-align: center;
-    vertical-align: baseline;
     letter-spacing: normal;
     word-spacing: 0px;
     margin-top: 25vh;
 }
 
 .presentacion {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/presentacion.jpg");
     background-position: center;
@@ -223,7 +221,7 @@ svg {
 }
 
 .ofertas {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg1.jpg");
     background-position: center;
@@ -269,7 +267,7 @@ svg {
 }
 
 .relojes {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/relojes.jpg");
     background-position: center;
@@ -280,12 +278,11 @@ svg {
     letter-spacing: 2px;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 
 .relojes h2 {
-    margin-right: 5vh;
     font-family: "bebas neue", sans-serif;
     font-size:50px;
 }
@@ -296,7 +293,6 @@ svg {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 5vh;
 }
 
 .texto {
@@ -317,7 +313,7 @@ svg {
 }
 
 .remeras {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/remeras.jpg");
     background-position: center;
@@ -328,7 +324,7 @@ svg {
     letter-spacing: 2px;
     color: white;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -343,7 +339,6 @@ svg {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 5vh;
 }
 
 .texto {
@@ -364,7 +359,7 @@ svg {
 }
 
 .pantalones {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pantalon.jpg");
     background-position: center;
@@ -375,14 +370,13 @@ svg {
     letter-spacing: 2px;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 
 .pantalones h2 {
-    margin-right: 5vh;
-    margin-right: 5vh;
     font-family: "bebas neue", sans-serif;
+    font-size:50px;
 }
 
 .pantalones div {
@@ -390,7 +384,6 @@ svg {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 5vh;
 }
 
 .texto {
@@ -411,7 +404,7 @@ svg {
 }
 
 .buzos {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/buzos.jpg");
     background-position: center;
@@ -422,7 +415,7 @@ svg {
     letter-spacing: 2px;
     color: white;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -431,13 +424,11 @@ svg {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 5vh;
 }
 
 .buzos h2 {
-    margin-left: 5vh;
-    margin-right: 5vh;
     font-family: "bebas neue", sans-serif;
+    font-size:50px;
 }
 
 .texto {
@@ -458,7 +449,7 @@ svg {
 }
 
 .zapatillas {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zapatillas.jpg");
     background-position: center;
@@ -469,7 +460,7 @@ svg {
     letter-spacing: 2px;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -478,13 +469,11 @@ svg {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 5vh;
 }
 
 .zapatillas h2 {
-    margin-right: 5vh;
-    margin-right: 5vh;
-    font-family: "bebas neue", sans-serif;
+   font-family: "bebas neue", sans-serif;
+    font-size:50px;
 }
 
 .texto {
@@ -507,12 +496,12 @@ svg {
 /*------FOOTER------*/
 .pie {
     background-color: black;
-    width: 100%;
+    width: 100vw;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 20px;
-    padding-left: 30px;d
+    padding-left: 30px;
 }
 
 .contacto {
@@ -631,6 +620,7 @@ svg {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+    background-color: rgba(0, 0, 0, 0.514);
 }
 
 .header-oferta nav ul {
@@ -644,52 +634,6 @@ svg {
     margin: 20px 20px 0 20px;
 }
 
-.barra h2 {
-    text-align: center;
-}
-
-.tarjetas div {
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(2, 450px);
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-}
-
-.tarjetas div div {
-    width: 300px;
-    height: 450px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.comprar {
-    color: black;
-    background-color: #fff;
-    margin-top: 7px;
-    padding: 7px;
-    border-radius: 2px;
-}
-
-.tarjetas div div a img {
-    max-width: 200px;
-    max-height: 300px;
-    object-fit: contain;
-}
-
-.tarjetas h2 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.tarjetas h3 {
-    color: white;
-}
 .pie-ofertas div{
     
 }
@@ -719,26 +663,40 @@ svg {
 }
 .contacto{
     color: #fff;
-    width: 98%;
+    width: 100vw;
     padding-left: 5px;
 }
 .col-12{
     color: #fff;
-    width: 98%;
+    width: 100vw;
     padding-left: 5px;
 }
 .col-md-6{
     color: #fff;
-    width: 98%;
+    width: 100vw;
     padding-left: 5px;
 }
 .col-md-2{
     color: #fff;
-    width: 98%;
+    width: 100vw;
     padding-left: 5px;
 }
 .col-md-4{
     color: #fff;
-    width: 98%;
+    width: 100vw;
     padding-left: 5px;
+}
+.tarjetas div{
+    margin: 5px;
+    justify-content: center;
+}
+.tarjetas div div{
+    color: black;
+}
+.card-body{
+    text-align: center;
+}
+.text-dark{
+    position:static;
+    top: 50%;
 }
