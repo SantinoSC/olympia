@@ -10,8 +10,15 @@ header {
     z-index: 10;
     a{
         img{
-        width: 25px;
-        height: 25px;
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        transition-property: all;
+    transition-duration: 0.5s;
+    &:hover{
+        transform: scale(1.4);
+    }
         }
     }   
     nav{
@@ -31,27 +38,27 @@ header {
 }
 
 .a1 {
-    margin-left: 15px;
+    margin-left: 6px;
 }
 
 .a2 {
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .a3 {
-    margin-left: 8px;
+    margin-left: -3px;
 }
 
 .a4 {
-    margin-left: 7px;
+    margin-left: -3px;
 }
 
 .a5 {
-    margin-left: 5px;
+    margin-left: -3px;
 }
 
 .a6 {
-    margin-left: 11px;
+    margin-left: 3px;
 }
 .logo {
     width: 25px;
@@ -59,18 +66,6 @@ header {
 }
 .logo-1{
     color: white;
-}
-.logo-principal {
-    width: 50px;
-    height: 50px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    display: flex;
-    transition-property: all;
-    transition-duration: 1s;
-    &:hover{
-        transform: rotateY(360deg);
-    }
 }
 .sesion {
     margin-top: 30px;
@@ -81,6 +76,6 @@ header {
     transition-property: all;
     transition-duration: 0.5s;
     &:hover{
-        transform: scale(1.4);
+        transform: scale(1.2);
     }
 }

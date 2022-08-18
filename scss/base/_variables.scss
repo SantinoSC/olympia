@@ -1,0 +1,33 @@
+//* Maps
+$secciones:(
+    ancho: 100vw,
+    alto: 100vh,
+    bg-pos: center,
+    bg-size: cover,
+    bg-att: fixed,
+    tam-letra: 20px,
+    peso-letra: normal,
+    esp-letra: 2px,
+    color-letra: white,
+    disp: flex,
+    jf-cnt: center,
+    al-itm: center,    
+);
+//*Extend
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+%flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//* Mixin
+@mixin texto ($color, $family, $align){
+    color: $color;
+    font-family: $family;
+    text-align: $align;
+}

@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+.ofertas div, .relojes div, .remeras div, .pantalones div, .buzos div, .zapatillas div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.container, .texto {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +33,14 @@ header {
   align-items: center;
   z-index: 10; }
   header a img {
-    width: 25px;
-    height: 25px; }
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    transition-property: all;
+    transition-duration: 0.5s; }
+    header a img:hover {
+      transform: scale(1.4); }
   header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -36,22 +53,22 @@ header {
   text-decoration: none; }
 
 .a1 {
-  margin-left: 15px; }
+  margin-left: 6px; }
 
 .a2 {
-  margin-left: 70px; }
+  margin-left: 60px; }
 
 .a3 {
-  margin-left: 8px; }
+  margin-left: -3px; }
 
 .a4 {
-  margin-left: 7px; }
+  margin-left: -3px; }
 
 .a5 {
-  margin-left: 5px; }
+  margin-left: -3px; }
 
 .a6 {
-  margin-left: 11px; }
+  margin-left: 3px; }
 
 .logo {
   width: 25px;
@@ -59,17 +76,6 @@ header {
 
 .logo-1 {
   color: white; }
-
-.logo-principal {
-  width: 50px;
-  height: 50px;
-  margin-left: 40px;
-  margin-bottom: 10px;
-  display: flex;
-  transition-property: all;
-  transition-duration: 1s; }
-  .logo-principal:hover {
-    transform: rotateY(360deg); }
 
 .sesion {
   margin-top: 30px;
@@ -80,14 +86,14 @@ header {
   transition-property: all;
   transition-duration: 0.5s; }
   .sesion:hover {
-    transform: scale(1.4); }
+    transform: scale(1.2); }
 
 .titulo {
   color: white;
-  font-family: "bebas neue", sans-serif;
+  font-family: "bebas neue";
+  text-align: center;
   font-size: 70.4px;
   line-height: 84.48px;
-  text-align: center;
   letter-spacing: normal;
   word-spacing: 0px;
   margin-top: 25vh; }
@@ -142,10 +148,7 @@ header {
 .container {
   width: 1fr;
   height: 1fr;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  position: absolute; }
 
 .center {
   width: 180px;
@@ -190,9 +193,9 @@ svg {
   transition: 1s ease-in-out; }
 
 .ofertas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg1.jpg");
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg1.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -206,23 +209,18 @@ svg {
   .ofertas h2 {
     font-family: "bebas neue", sans-serif;
     font-size: 50px; }
-  .ofertas div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .ofertas div div a {
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
-    .ofertas div div p {
-      width: 500px;
-      text-align: center; }
+  .ofertas div div a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none; }
+  .ofertas div div p {
+    width: 500px;
+    text-align: center; }
 
 .relojes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/relojes.jpg");
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/relojes.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -237,9 +235,6 @@ svg {
     font-family: "bebas neue", sans-serif;
     font-size: 50px; }
   .relojes div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column; }
     .relojes div div a {
       color: #fff;
@@ -250,9 +245,9 @@ svg {
       text-align: center; }
 
 .remeras {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/remeras.jpg");
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/remeras.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -267,23 +262,18 @@ svg {
     margin-left: 5vh;
     margin-right: 5vh;
     font-family: "bebas neue", sans-serif; }
-  .remeras div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .remeras div div a {
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
-    .remeras div div p {
-      width: 500px;
-      text-align: center; }
+  .remeras div div a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none; }
+  .remeras div div p {
+    width: 500px;
+    text-align: center; }
 
 .pantalones {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pantalon.jpg");
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pantalon.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -297,23 +287,18 @@ svg {
   .pantalones h2 {
     font-family: "bebas neue", sans-serif;
     font-size: 50px; }
-  .pantalones div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .pantalones div div a {
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
-    .pantalones div div p {
-      width: 500px;
-      text-align: center; }
+  .pantalones div div a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none; }
+  .pantalones div div p {
+    width: 500px;
+    text-align: center; }
 
 .buzos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/buzos.jpg");
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/buzos.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -327,23 +312,18 @@ svg {
   .buzos h2 {
     font-family: "bebas neue", sans-serif;
     font-size: 50px; }
-  .buzos div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .buzos div div a {
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
-    .buzos div div p {
-      width: 500px;
-      text-align: center; }
+  .buzos div div a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none; }
+  .buzos div div p {
+    width: 500px;
+    text-align: center; }
 
 .zapatillas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zapatillas.jpg");
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zapatillas.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -357,23 +337,13 @@ svg {
   .zapatillas h2 {
     font-family: "bebas neue", sans-serif;
     font-size: 50px; }
-  .zapatillas div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .zapatillas div div a {
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
-    .zapatillas div div p {
-      width: 500px;
-      text-align: center; }
-
-.texto {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  .zapatillas div div a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none; }
+  .zapatillas div div p {
+    width: 500px;
+    text-align: center; }
 
 .pie {
   background-color: black;

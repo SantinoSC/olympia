@@ -1,9 +1,7 @@
 .titulo {
-    color: white;
-    font-family: "bebas neue", sans-serif;
+    @include texto (white, "bebas neue", center);
     font-size: 70.4px;
     line-height: 84.48px;
-    text-align: center;
     letter-spacing: normal;
     word-spacing: 0px;
     margin-top: 25vh;
@@ -71,9 +69,7 @@
     width: 1fr;
     height: 1fr;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex2;
 }
 
 .center {
@@ -129,19 +125,19 @@ svg {
 }
 
 .ofertas {
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: map-get($secciones, ancho);
+    height: map-get($secciones , alto);
+    background-position: map-get($secciones , bg-pos );
+    background-size: map-get($secciones , bg-size );
+    background-attachment: map-get($secciones , bg-att );
+    font-size: map-get($secciones , tam-letra );
+    font-weight: map-get($secciones , peso-letra );
+    letter-spacing: map-get($secciones , esp-letra );
+    color: map-get($secciones , color-letra );
+    display: map-get($secciones , disp );
+    justify-content: map-get($secciones , jf-cnt );
+    align-items: map-get($secciones , al-itm );
 
     h2 {
         font-family: "bebas neue", sans-serif;
@@ -149,11 +145,7 @@ svg {
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
+        @extend %flex;
         div {
             a {
                 color: #fff;
@@ -170,19 +162,19 @@ svg {
 }
 
 .relojes {
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/relojes.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: map-get($secciones, ancho);
+    height: map-get($secciones , alto);
+    background-position: map-get($secciones , bg-pos );
+    background-size: map-get($secciones , bg-size );
+    background-attachment: map-get($secciones , bg-att );
+    font-size: map-get($secciones , tam-letra );
+    font-weight: map-get($secciones , peso-letra );
+    letter-spacing: map-get($secciones , esp-letra );
+    color: map-get($secciones , color-letra );
+    display: map-get($secciones , disp );
+    justify-content: map-get($secciones , jf-cnt );
+    align-items: map-get($secciones , al-itm );
 
     h2 {
         font-family: "bebas neue", sans-serif;
@@ -190,9 +182,7 @@ svg {
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         flex-direction: column;
 
         div {
@@ -211,19 +201,19 @@ svg {
 }
 
 .remeras {
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/remeras.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: map-get($secciones, ancho);
+    height: map-get($secciones , alto);
+    background-position: map-get($secciones , bg-pos );
+    background-size: map-get($secciones , bg-size );
+    background-attachment: map-get($secciones , bg-att );
+    font-size: map-get($secciones , tam-letra );
+    font-weight: map-get($secciones , peso-letra );
+    letter-spacing: map-get($secciones , esp-letra );
+    color: map-get($secciones , color-letra );
+    display: map-get($secciones , disp );
+    justify-content: map-get($secciones , jf-cnt );
+    align-items: map-get($secciones , al-itm );
 
     h2 {
         margin-left: 5vh;
@@ -232,11 +222,7 @@ svg {
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
+        @extend %flex;
         div {
             a {
                 color: #fff;
@@ -253,19 +239,19 @@ svg {
 }
 
 .pantalones {
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pantalon.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: map-get($secciones, ancho);
+    height: map-get($secciones , alto);
+    background-position: map-get($secciones , bg-pos );
+    background-size: map-get($secciones , bg-size );
+    background-attachment: map-get($secciones , bg-att );
+    font-size: map-get($secciones , tam-letra );
+    font-weight: map-get($secciones , peso-letra );
+    letter-spacing: map-get($secciones , esp-letra );
+    color: map-get($secciones , color-letra );
+    display: map-get($secciones , disp );
+    justify-content: map-get($secciones , jf-cnt );
+    align-items: map-get($secciones , al-itm );
 
     h2 {
         font-family: "bebas neue", sans-serif;
@@ -273,11 +259,7 @@ svg {
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
+        @extend %flex;
         div {
             a {
                 color: #fff;
@@ -294,19 +276,19 @@ svg {
 }
 
 .buzos {
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/buzos.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: map-get($secciones, ancho);
+    height: map-get($secciones , alto);
+    background-position: map-get($secciones , bg-pos );
+    background-size: map-get($secciones , bg-size );
+    background-attachment: map-get($secciones , bg-att );
+    font-size: map-get($secciones , tam-letra );
+    font-weight: map-get($secciones , peso-letra );
+    letter-spacing: map-get($secciones , esp-letra );
+    color: map-get($secciones , color-letra );
+    display: map-get($secciones , disp );
+    justify-content: map-get($secciones , jf-cnt );
+    align-items: map-get($secciones , al-itm );
 
     h2 {
         font-family: "bebas neue", sans-serif;
@@ -314,11 +296,7 @@ svg {
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
+        @extend %flex;
         div {
             a {
                 color: #fff;
@@ -335,19 +313,19 @@ svg {
 }
 
 .zapatillas {
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zapatillas.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: map-get($secciones, ancho);
+    height: map-get($secciones , alto);
+    background-position: map-get($secciones , bg-pos );
+    background-size: map-get($secciones , bg-size );
+    background-attachment: map-get($secciones , bg-att );
+    font-size: map-get($secciones , tam-letra );
+    font-weight: map-get($secciones , peso-letra );
+    letter-spacing: map-get($secciones , esp-letra );
+    color: map-get($secciones , color-letra );
+    display: map-get($secciones , disp );
+    justify-content: map-get($secciones , jf-cnt );
+    align-items: map-get($secciones , al-itm );
 
     h2 {
         font-family: "bebas neue", sans-serif;
@@ -355,10 +333,7 @@ svg {
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @extend %flex;
 
         div {
             a {
@@ -376,7 +351,5 @@ svg {
 }
 
 .texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex2;
 }
