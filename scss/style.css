@@ -17,13 +17,18 @@ header {
   width: 100%;
   height: 10vh;
   padding-top: 10px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.473);
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 10;
-  margin-top: 10px;
+}
+header .principal {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header nav ul {
   display: flex;
@@ -76,6 +81,7 @@ header nav ul li {
   width: 50px;
   height: 50px;
   margin-left: 40px;
+  margin-bottom: 10px;
   display: flex;
   transition-property: all;
   transition-duration: 1s;
@@ -230,4 +236,353 @@ svg {
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
   transition: 1s ease-in-out;
+}
+
+.ofertas {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ofertas h2 {
+  font-family: "bebas neue", sans-serif;
+  font-size: 50px;
+}
+.ofertas div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ofertas div div a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.ofertas div div p {
+  width: 500px;
+  text-align: center;
+}
+
+.relojes {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/relojes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.relojes h2 {
+  font-family: "bebas neue", sans-serif;
+  font-size: 50px;
+}
+.relojes div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.relojes div div a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.relojes div div p {
+  width: 500px;
+  text-align: center;
+}
+
+.remeras {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/remeras.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remeras h2 {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-family: "bebas neue", sans-serif;
+}
+.remeras div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.remeras div div a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.remeras div div p {
+  width: 500px;
+  text-align: center;
+}
+
+.pantalones {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pantalon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pantalones h2 {
+  font-family: "bebas neue", sans-serif;
+  font-size: 50px;
+}
+.pantalones div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pantalones div div a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.pantalones div div p {
+  width: 500px;
+  text-align: center;
+}
+
+.buzos {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/buzos.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buzos h2 {
+  font-family: "bebas neue", sans-serif;
+  font-size: 50px;
+}
+.buzos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buzos div div a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.buzos div div p {
+  width: 500px;
+  text-align: center;
+}
+
+.zapatillas {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zapatillas.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zapatillas h2 {
+  font-family: "bebas neue", sans-serif;
+  font-size: 50px;
+}
+.zapatillas div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.zapatillas div div a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.zapatillas div div p {
+  width: 500px;
+  text-align: center;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie {
+  background-color: black;
+  width: 100vw;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.pie div iframe {
+  margin: 20px 20px 0 20px;
+  width: 550px;
+  height: 350px;
+}
+.pie ul li a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  margin-left: -30px;
+}
+
+.contactenos {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 0.18fr 1fr;
+  row-gap: 50px;
+}
+
+.datos {
+  margin-left: -30px;
+}
+
+.datos-1 {
+  margin-left: 1px;
+}
+
+.redes1 {
+  width: 25px;
+  height: 25px;
+  margin-left: -30px;
+}
+
+.redes2 {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.header-ofertas {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.header-ofertas nav ul {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+.header-ofertas nav ul li {
+  list-style: none;
+  margin: 20px 20px 0 20px;
+}
+
+.tarjetas div {
+  margin: 5px;
+  justify-content: center;
+}
+.tarjetas div div {
+  color: black;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.text-dark {
+  position: static;
+  top: 50%;
+}
+
+.col-12 {
+  color: #fff;
+  width: 100vw;
+  padding-left: 5px;
+}
+
+.col-md-6 {
+  color: #fff;
+  width: 100vw;
+  padding-left: 5px;
+}
+
+.col-md-2 {
+  color: #fff;
+  width: 100vw;
+  padding-left: 5px;
+}
+
+.col-md-4 {
+  color: #fff;
+  width: 100vw;
+  padding-left: 5px;
+}
+
+.header-contacto {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.contacto {
+  color: #fff;
+  width: 100vw;
+  padding-left: 5px;
+}
+
+.contacto-body {
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */

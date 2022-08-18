@@ -1,0 +1,57 @@
+@media screen and (max-width:1070px) {
+    .pie {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:1163px) {
+    .datos {
+        padding: 5px;
+    }
+}
+@media screen and (max-width:1224px) {
+    .redes1 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .datos {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:901px) {
+    .presentacion {
+        width: 902px;
+    }
+
+    .ofertas {
+        width: 902px;
+    }
+
+    .relojes {
+        width: 902px;
+    }
+
+    .remeras {
+        width: 902px;
+    }
+
+    .pantalones {
+        width: 902px;
+    }
+
+    .buzos {
+        width: 902px;
+    }
+
+    .zapatillas {
+        width: 902px;
+    }
+
+    .pie {
+        width: 902px;
+    }
+}
