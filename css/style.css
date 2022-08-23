@@ -36,11 +36,7 @@ header {
     width: 45px;
     height: 45px;
     margin-left: 10px;
-    margin-bottom: 5px;
-    transition-property: all;
-    transition-duration: 0.5s; }
-    header a img:hover {
-      transform: scale(1.4); }
+    margin-bottom: 5px; }
   header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -347,14 +343,11 @@ svg {
 
 .pie {
   background-color: black;
-  width: 100vw;
   color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 20px;
-  padding-left: 30px; }
+  grid-template-columns: 33.3vw 23.3vw 43.3vw;
+  padding: 20px; }
   .pie div iframe {
-    margin: 20px 20px 0 20px;
     width: 550px;
     height: 350px; }
   .pie ul li a {
