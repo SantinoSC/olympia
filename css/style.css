@@ -380,7 +380,7 @@ svg {
   margin-left: -20px; }
 
 .header-ofertas {
-  position: fixed;
+  position: sticky;
   width: 100vw;
   height: 10vh;
   padding: 20px;
@@ -390,13 +390,15 @@ svg {
   justify-content: space-between;
   align-items: center;
   z-index: 10; }
-  .header-ofertas nav ul {
-    display: flex;
-    justify-content: end;
-    flex-wrap: wrap; }
-    .header-ofertas nav ul li {
-      list-style: none;
-      margin: 20px 20px 0 20px; }
+  .header-ofertas nav {
+    margin-top: 15px; }
+    .header-ofertas nav ul {
+      display: flex;
+      justify-content: end;
+      flex-wrap: wrap; }
+      .header-ofertas nav ul li {
+        list-style: none;
+        margin: 20px 20px 0 20px; }
 
 .tarjetas div {
   margin: 5px;
@@ -405,31 +407,35 @@ svg {
     color: black; }
 
 .card-body {
-  text-align: center; }
+  text-align: center;
+  justify-content: center; }
 
 .text-dark {
   position: static;
   top: 50%; }
 
 .col-12 {
-  color: #fff;
+  color: black;
   width: 100vw;
   padding-left: 5px; }
 
 .col-md-6 {
-  color: #fff;
+  color: black;
   width: 100vw;
   padding-left: 5px; }
 
 .col-md-2 {
-  color: #fff;
+  color: black;
   width: 100vw;
   padding-left: 5px; }
 
 .col-md-4 {
-  color: #fff;
+  color: black;
   width: 100vw;
   padding-left: 5px; }
+
+body {
+  background-color: black; }
 
 .header-contacto {
   position: sticky;
