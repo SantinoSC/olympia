@@ -85,12 +85,12 @@
     height: 60px;
     position: absolute;
     top: 80px;
+
 }
 
 .btn {
     width: 180px;
     height: 60px;
-    cursor: pointer;
     background: transparent;
     border: 1px solid #777777;
     outline: none;
@@ -112,7 +112,10 @@
         font-weight: 100;
     }
 }
-
+.container-of{
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
 svg {
     position: absolute;
     left: 0;
@@ -352,4 +355,10 @@ svg {
 
 .texto {
     @extend %flex2;
+}
+@media (max-width: 522px){
+
+    .texto{
+        font-size: 55%;
+    }
 }

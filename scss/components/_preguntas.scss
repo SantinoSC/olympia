@@ -1,0 +1,41 @@
+.preg-main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../img/preguntas.jpg");
+    background-size: cover;
+    background-position: center;    
+    
+}
+.preguntas-frecuentes{
+    padding-top: 40vh;
+    h2{
+        text-align: center;
+        color: white;
+        
+    }
+    div{
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        li{
+            border: 1px solid white;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            transition: 1s ease-in-out;
+            &:hover{
+                transition: 1s ease-in-out;
+                background: rgba(0, 0, 0, 0.5);
+            }
+            .preguntas{
+                justify-content: space-around;
+                text-decoration: none;
+                list-style: none;
+                color: white;
+            }
+        }
+    }
+    
+    }
+    

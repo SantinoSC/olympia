@@ -1,0 +1,67 @@
+.div-cont{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/foto-cont.jpeg") ;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-size:120%;
+  font-family: 'calibri';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .contacto{
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+    .form{
+    width: 30rem;
+    height: 30em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/foto-cont.jpeg") ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: -1px 1px 14px -6px rgb(0, 0, 0);
+    -webkit-box-shadow: -1px 1px 14px -6px rgb(0, 0, 0);
+    -moz-box-shadow: -1px 1px 14px -6px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+      .barras{
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.540);
+        border: none;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 15px ;
+        margin-bottom: 8px;
+        color: white;
+        font-weight: bold;
+      }
+      .msj{
+        height: 100px;
+        padding-bottom: 60px;
+      }
+      h2{
+        margin-bottom: 15px;
+        font-weight: bolder;
+      }
+      h3{
+      font-size:17px;
+      font-weight: lighter;
+      }
+      button{
+        width: 90%;
+        border-radius: 40px;
+        padding: 8px;
+        font-weight: bold;
+        color:white;
+        background-color: rgb(226, 43, 165);
+        margin-top: 15px;
+      }
+      }
+}
+  

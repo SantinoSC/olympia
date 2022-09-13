@@ -1,0 +1,49 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/foto-login.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'calibri';
+    padding: 100px;
+}  
+  .form-login {
+    width: 400px;
+    background: #24303c;
+    margin: auto;
+    margin-bottom: 65px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 30px;
+    border-top: 4px solid #b71fc5;
+    color: white;
+  }
+  
+  .form-login h5 {
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width:600px) {
+  .form-login{
+    width: 80%;
+  }
+  }

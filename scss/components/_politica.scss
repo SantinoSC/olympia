@@ -1,0 +1,37 @@
+.main-poli{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/foto-politica.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.politica{
+    padding-top: 150px;
+    h2{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    div{
+        span{
+            color: black;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        p{
+            span{
+                color: black;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bold;
+            }
+            margin-left: 100px;
+            margin-right: 100px;
+            color: rgb(255, 255, 255);
+            font-family: 'montserrat';
+            font-weight: bold;
+            margin-top: 20px;
+            
+        }
+    }
+}

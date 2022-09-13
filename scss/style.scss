@@ -1,7 +1,13 @@
 @import "./base/variables";
 @import "./base/generales";
+@import "./components/index/footer";
 @import "./components/index/header";
 @import "./components/index/main";
-@import "./components/index/footer";
-@import "./components/header-of";
-@import "./components/header-con";
+@import "./components/_ofertas.scss";
+@import "./components/_contacto.scss";
+@import "./components/_join.scss";
+@import "./components/_login.scss";
+@import "./components/_preguntas.scss";
+@import "./components/_envios.scss";
+@import "./components/_politica.scss";
+@import "./components/_venta.scss";
