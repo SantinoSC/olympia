@@ -23,7 +23,7 @@ body {
   font-family: 'bebas neue', sans-serif; }
 
 footer {
-  position: fixed;
+  position: static;
   bottom: 0; }
 
 @media (max-height: 800px) {
@@ -57,7 +57,7 @@ footer {
   width: 30%; }
 
 .footer-distributed h3 span {
-  color: #e0ac1c; }
+  color: #b71fc5; }
 
 .footer-distributed .footer-links {
   color: #ffffff;
@@ -107,7 +107,7 @@ footer {
   line-height: 2; }
 
 .footer-distributed .footer-center p a {
-  color: #e0ac1c;
+  color: #b71fc5;
   text-decoration: none; }
 
 .footer-distributed .footer-right {
@@ -241,14 +241,14 @@ footer {
   .navbar-container {
     display: block;
     position: relative;
-    height: 64px; }
+    height: 100%; }
   .navbar-container input[type="checkbox"] {
     position: absolute;
     display: block;
     height: 32px;
     width: 30px;
-    top: 20px;
-    left: 20px;
+    top: 0;
+    left: 1%;
     z-index: 5;
     opacity: 0; }
   .navbar-container .hamburger-lines {
@@ -256,8 +256,8 @@ footer {
     height: 23px;
     width: 35px;
     position: absolute;
-    top: 17px;
-    left: -20px;
+    top: 15px;
+    left: 0%;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -279,13 +279,14 @@ footer {
   .navbar .menu-items {
     padding-top: 100px;
     background: rgba(0, 0, 0, 0.589);
-    height: 100vh;
-    max-width: 300px;
+    height: 102vh;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-    margin-left: -25%;
+    left: -5em;
+    margin-top: -2%;
     padding-left: 5%;
+    padding-right: 5%;
     transition: transform 0.5s ease-in-out; }
   .navbar .menu-items li {
     margin-bottom: 1.5rem;
@@ -310,15 +311,12 @@ footer {
     margin-right: 80px; } }
 
 @media screen and (max-width: 992px) {
-  .menu-items li .buscar {
-    width: 150px;
-    height: 30px; }
   .menu-items li a {
     font-size: .7em; } }
 
-@media screen and (max-width: 765) {
-  .menu-items {
-    width: 10%; } }
+@media screen and (max-width: 992px) {
+  .navbar .menu-items {
+    margin-left: -10em; } }
 
 .titulo {
   color: white;
